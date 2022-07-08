@@ -1,0 +1,41 @@
+/* html {
+    font-size: 100px;
+} */
+
+/* Color Systems */
+.text{
+    /* color: red; */
+    /* hex */
+        /* color: red ; */
+        /* 0123456789abcdef */
+        /* min->0 max->f */
+        /* color: #92311111; */
+        /* color: #acf2de; */
+        /* min-> 3 max -> 8 */
+        /* color: #000; */
+    /* rgb */
+    /* red green blue  */
+    /* color: rgb(200,110,255); */
+    /* min-0 max->255 */
+    /* rgba */
+       /* red green blue alpha*/
+       /* color: rgba(0,0,255, 1); */
+    /* hsl */
+    /* hue, saturation, lightness,  */
+    /* color: hsl(200, 100%, 50%); */
+    /* hsla  */
+    /* hue, saturation, lightness, alpha */
+    /* color: hsl(200, 100%, 50%,0.1); */
+
+    /* hwb */
+    /* Hue, Whiteness, Blackness */
+    /* color: hwb(290 33% 29%); */
+
+
+    /* px */
+    /* em = 16px */
+    /* rem = 16px */
+    /* vh */
+    /* % */
+    /* font-size: 3em; */
+}

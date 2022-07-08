@@ -1,0 +1,22 @@
+@import url('mian.css');
+
+/* ID = # */
+/* CLASS =  . */
+/* #text{
+    color: red;
+}
+#text1{
+    color: red;
+} */
+
+.red-text{
+    color: red;
+}
+
+.bigSize{
+    font-size: 30px;
+}
+
+.a{
+    color: green;
+}

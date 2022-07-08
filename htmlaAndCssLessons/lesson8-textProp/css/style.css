@@ -1,0 +1,20 @@
+p{
+    /* color: red; */
+    /* background-color: green; */
+    /* font-size: 130px; */
+    /* text-transform: capitalize; */
+    /* line-height: 100px; */
+    /* letter-spacing: 10px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-weight: bolder; */
+    /* font-style: normal; */
+}
+
+/* li:nth-child(4){
+    color: blue;
+} */
+
+/* odd even */
+/* li:nth-child(2n-1){
+    color: blue;
+} */
