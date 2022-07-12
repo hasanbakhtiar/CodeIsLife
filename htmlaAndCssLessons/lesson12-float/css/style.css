@@ -1,0 +1,9 @@
+img{
+    /* float: right; */
+    float: left;
+}
+.test{
+    /* clear: left;
+    clear: right; */
+    clear: both;
+}
