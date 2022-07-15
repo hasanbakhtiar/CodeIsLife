@@ -1,0 +1,17 @@
+@mixin ortlama {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin sag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin sol {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
