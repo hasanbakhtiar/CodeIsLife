@@ -1,0 +1,26 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+i {
+  font-size: 200px;
+  color: red;
+}
+
+.info-box {
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background-color: red;
+}
+.info-box::after {
+  transition: 1s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "Hello";
+  display: block;
+  width: 100px;
+  height: 0px;
+  background-color: green;
+}
+.info-box:hover::after {
+  height: 250px;
+}/*# sourceMappingURL=style.css.map */
