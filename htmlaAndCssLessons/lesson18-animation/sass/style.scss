@@ -1,0 +1,59 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+// .box{
+// position: relative;
+// width: 100px;
+// height: 100px;
+// background-color: red;
+// animation-name: hereket;
+// animation-duration: 5s;
+// animation-iteration-count: infinite;
+// animation-delay: 2s;
+
+// }
+// i{
+//     animation: firlana-firlana 2s infinite linear;
+
+// }
+// @keyframes firlana-firlana {
+//     100%{
+//         transform: rotate(360deg);
+//     }
+// }
+
+// @keyframes hereket{
+// from{left: 0px;}
+// to{left: 250px;}
+// 0%{left: 0; top: 0; background-color: red;}
+// 25%{left: 200px; top: 0; background-color: green;}
+// 50%{left: 200px; top: 200px; background-color: rgb(141, 228, 0); transform: rotate(360deg);}
+// 75%{left: 0; top: 200px; background-color: rgb(234, 0, 144); border-radius: 50%;}
+// 100%{left: 0; top: 0px; background-color: rgb(0, 229, 255);}
+// }
+
+.pic-box {
+  position: relative;
+  .img-one {
+    position: absolute;
+    animation: slide-show 5s infinite linear;
+  }
+  @keyframes slide-show {
+    0% {
+        opacity:0 ;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  .img-two {
+    position: absolute;
+    animation: slide-show1 5s infinite linear;
+  }
+  @keyframes slide-show1 {
+    0% {
+       opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+}

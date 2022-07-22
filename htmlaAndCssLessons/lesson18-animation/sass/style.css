@@ -1,0 +1,46 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+.pic-box {
+  position: relative;
+}
+.pic-box .img-one {
+  position: absolute;
+  -webkit-animation: slide-show 5s infinite linear;
+          animation: slide-show 5s infinite linear;
+}
+@-webkit-keyframes slide-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slide-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.pic-box .img-two {
+  position: absolute;
+  -webkit-animation: slide-show1 5s infinite linear;
+          animation: slide-show1 5s infinite linear;
+}
+@-webkit-keyframes slide-show1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes slide-show1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
