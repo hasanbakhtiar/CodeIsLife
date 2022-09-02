@@ -1,0 +1,54 @@
+body {
+  height: 200vh;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+}
+
+header {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+}
+header ul {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.show {
+  height: 400px;
+  transform: translate(0);
+  transition: 1s;
+}
+
+.hide {
+  height: 0px;
+  transform: translate(-500px);
+  transition: 1s;
+}
+
+.a {
+  color: blue;
+}
+
+.b {
+  font-size: 25px;
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */
