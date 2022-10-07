@@ -1,0 +1,6 @@
+React JS
+Babel   -> ES6+ convert to ES5 
+JSX     -> .js file in html 
+Webpack -> minimal size 
+
+npm -> node package manager
