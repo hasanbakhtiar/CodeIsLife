@@ -4,7 +4,7 @@ import products from '../data/products';
 class App extends Component {
     render() {
       return (
-        <div className="row">
+        <div className="row gap-5">
           {products.map((fd,i) => {
             return (
               <List
