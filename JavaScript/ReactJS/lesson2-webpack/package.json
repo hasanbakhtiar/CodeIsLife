@@ -1,0 +1,34 @@
+{
+  "name": "lesson2-webpack",
+  "version": "1.0.0",
+  "description": "this files for example",
+  "main": "index.js",
+  "scripts": {
+    "wb": "webpack --mode production",
+    "start": "live-server dist"
+  },
+  "keywords": [
+    "lesson",
+    "example"
+  ],
+  "author": "Hasan bakhtiar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.5",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
