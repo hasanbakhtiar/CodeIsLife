@@ -1,5 +1,15 @@
 import React, { Component } from 'react'
 
+class Text extends Component{
+  render(){
+    return(
+      <h1>{this.props.test}</h1>
+    )
+  }
+}
+
+
+
 class Counter extends Component {
   constructor(){
     super();
@@ -31,6 +41,8 @@ class Counter extends Component {
               count: this.state.count + 1
             })
       }}>+</button>
+      <Text test = "hello" />
+      <Text test = "new value" />
     </div>
       </>
     )

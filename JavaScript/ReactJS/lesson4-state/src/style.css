@@ -1,0 +1,9 @@
+.a{
+    background-color: grey;
+}
+.b{
+    background-color: black;
+}
+.b *{
+    color:#fff;
+}
