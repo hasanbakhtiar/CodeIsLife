@@ -2,7 +2,9 @@
     height: auto;
     background-image:url('../img/bg-white-3.png') ;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 .hero{
     width: 100%;
