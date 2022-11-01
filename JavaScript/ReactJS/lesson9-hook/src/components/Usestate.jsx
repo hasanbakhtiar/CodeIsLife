@@ -1,8 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
 import { useState } from 'react'
 
 const Usestate = () => {
     const [count,setCount] = useState(11);
+    const [number,setNumber] = useState(1);
+    useEffect(()=>{
+      console.log('useEffect is running...');
+    },[number])
     // const increment=()=>{
     //     setCount(count+1)
     // }
@@ -15,6 +20,8 @@ const Usestate = () => {
             setCount(count+2)
            }
         }}>+</button>
+        <h1>number:{number}</h1>
+        <button onClick={()=>{setNumber(number-1)}}>-1</button>
     </div>
   )
 }
