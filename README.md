@@ -1,5 +1,5 @@
 # CodeIsLife
 ## This repo for CodeIsLife 
-** JavaScript **
-** React **
-** Redux **
+**JavaScript**
+**React**
+**Redux**
